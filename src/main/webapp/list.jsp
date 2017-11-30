@@ -22,14 +22,14 @@ and open the template in the editor.
 
     <center>
         <p>&nbsp;</p>
-        <h1>Inventario</h1>
+        <h1>Inventario de Miel</h1>
     </center>
 
 
 
     <center>
 
-        <h1>  Colmena  -------- kilos</h1>
+        <h1>  Colmena           kilos</h1>
 
         <%
 
@@ -55,7 +55,7 @@ and open the template in the editor.
 
         <table >
             <tr>
-                <td> <a  href="recoleccion.jsp" ><input style="background-color: #33ffff"  class="submit" type="submit" name="Volver" value="Volver a visitar" /> </td>
+                <td> <a  href="recoleccion.jsp" ><input style="background-color: #33ffff"  class="submit" type="submit" name="Volver" value="Regresar" /> </td>
 
             </tr>
         </table>

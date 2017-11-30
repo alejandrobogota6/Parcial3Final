@@ -13,31 +13,28 @@ and open the template in the editor.
     </head>
     <body bgcolor="#ffffff" background="fondo.jpg">
 
-    <center>
+    
         <p>&nbsp;</p>    
-        <h1>Recoleccion</h1>
-    </center>
+        <h1>Recoleccion de Miel</h1>
+    
 
 
 
-    <center>
+    
         <table >
-            <tr >
-                <th><strong>Fecha</strong></th>
-                <th><strong>Recolector</strong></th>
-                <th><strong>Colmena</strong></th>
-                <th><strong>Kilos de miel</strong></th>
-
-            </tr>
+         
             <form action="Recoleccion" method="post"> 
                 <tr >
-
+		<th><strong>Fecha</strong></th>
                     <td><input class="contact" type="text" name="Fecha" value="" /></td>
+		<th><strong>Recolector</strong></th>
                     <td><input class="contact" type="text" name="Recolector" value="" /></td>
+		<th><strong>Colmena</strong></th>
                     <td><input class="contact" type="text" name="Colmena" value="" /></td>
+		<th><strong>Kilos de miel</strong></th>
                     <td><input class="contact" type="text" name="Kilosdemiel" value="" /></td>
-                    <td ><input style="background-color: #ffff33" class="submit" type="submit" name="insertar"  value="insertar" onClick="value = 1" > <td> 
-                    <td> <input style="background-color: #ffff33" class="submit" type="submit" name="cancelar"  value="cancelar" onClick="value = 2" > <td>
+                    <td ><input style="background-color: #ffffff" class="submit" type="submit" name="insertar"  value="Recolectar" onClick="value = 1" > <td> 
+                    
             </form>
 
 
@@ -54,14 +51,14 @@ and open the template in the editor.
 
         <table >
             <tr>
-                <td> <a  href="list.jsp" ><input style="background-color: #33ffff"  class="submit" type="submit" name="Mostar_todo" value="Mostar Todo" /> </td>
+                <td> <a  href="list.jsp" ><input style="background-color: #ffffff"  class="submit" type="submit" name="Mostar_todo" value="Verificar" /> </td>
               
             </tr>
         </table>
 
 
 
-    </center>
+    
 
 
 
@@ -71,4 +68,3 @@ and open the template in the editor.
 
 </body>
 </html>
-
