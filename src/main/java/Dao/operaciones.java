@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  *
- * @author JCBOT
+ * @author Bogotá
  */
 public class operaciones {
 

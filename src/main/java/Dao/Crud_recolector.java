@@ -17,7 +17,7 @@ import java.util.List;
 
 /**
  *
- * @author JCBOT
+ * @author Bogotá
  */
 public class Crud_recolector {
 

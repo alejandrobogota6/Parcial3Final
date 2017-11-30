@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author JCBOT
+ * @author Bogotá
  */
 public class Recoleccion extends HttpServlet {
 
